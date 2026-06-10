@@ -30,6 +30,7 @@ html {
 .card {
     background-color: var(--card-bg-color);
     min-width: 20.43rem;
+    /* height: 36.18rem; */
     padding: 1.5rem;
     border-radius: .75rem;
     display: flex;
@@ -45,15 +46,17 @@ html {
 
 .name {
     color: var(--color-white);
-    font-weight:500;
+    font-weight: 500;
     font-size: 1.5rem;
-    margin-bottom: .5rem;
+    line-height: 1.5;
+    margin-bottom: .25rem;
 }
 
 .location {
     color: var(--color-green);
     font-weight: bold;
-    font-size: .85rem;
+    font-size: .875rem;
+    line-height: 1.5;
     margin-bottom: 1.5rem;
 }
 
@@ -81,6 +84,7 @@ html {
     text-decoration: none;
     font-weight: bold;
     font-size: .875rem;
+    line-height: 1.5;
 }
 
 
